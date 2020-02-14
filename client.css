@@ -1,0 +1,96 @@
+
+body {
+  background-color: lightblue;
+}
+.grid-container{
+  display: grid;
+  place-content: center;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  margin-top: 90px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 15px;
+  border-style: solid;
+  border-color: black;
+}
+.header{
+  grid-column: 1/6;
+}
+.img{
+  height: 400px;
+  width: 340px;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  }
+
+.login{
+  width: 250px;
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+.signup{
+  width: 250px;
+  grid-column: 3/5;
+  grid-row: 3/4;
+}
+
+
+label {float: left;}
+input, select {float: right;
+      width: 50%;}
+select {width: 51.5%}
+
+#id1 {position: absolute;
+      left: 565px;
+      top: 122px;
+      }
+
+#id2 {position: absolute;
+      left: 565px;
+      top: 143px;
+      }
+
+#id3 {position: absolute;
+      left: 565px;
+      top: 292px;
+      }
+
+#id4 {position: absolute;
+      left: 565px;
+      top: 314px;
+      }
+
+#id5 {position: absolute;
+      left: 565px;
+      top: 332px;
+      }
+
+#id6 {position: absolute;
+      left: 565px;
+      top: 350px;
+      }
+
+#id7 {position: absolute;
+      left: 565px;
+      top: 371px;
+      }
+
+#id8 {position: absolute;
+      left: 565px;
+      top: 393px;
+      }
+
+#id9 {position: absolute;
+      left: 565px;
+      top: 414px;
+      }
+
+#id10 {position: absolute;
+      left: 565px;
+      top: 434px;
+      }
